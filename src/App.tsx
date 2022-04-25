@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 
 import logoImage from './assets/devmemory_logo.png'
 import RestartIcon from './svgs/restart.svg'
+import FooterIcon from './svgs/gitIcon.png'
 
 import { Button } from './components/Button';
 import { InfoItem } from './components/InfoItem';
@@ -132,6 +133,9 @@ const App = () =>{
           ))}
         </C.Grid>
       </C.GridArea>
+      <C.Footer>
+            Desenvolvido em Aula por Willian Junior
+      </C.Footer>
     </C.Container>
   )
 }

@@ -59,3 +59,18 @@ export const Grid = styled.div`
         grid-template-columns: repeat(3, 1fr);
     }
 `;
+
+export const Footer = styled.div`
+    width: 100%;
+    max-width:750px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #4473FF;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+`;
+
