@@ -72,5 +72,10 @@ export const Footer = styled.div`
     display: flex;
     text-align: center;
     justify-content: center;
+
+    @media(max-width: 750px){
+        position: inherit;
+        margin: 30px 0;
+    }
 `;
 
